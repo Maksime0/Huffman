@@ -240,27 +240,10 @@ def decode(c, tree = Node("NYT")):
     return tree, mot
 
 
-mot2 = "Quoique ce detail ne touche en aucune maniere au fond meme de ce que nous avons a raconter, il nest peut-etre pas inutile, ne fet-ce que pour etre exact en tout, dindiquer ici les bruits et les propos qui avaient couru sur son compte au moment ou il etait arrive dans le diocese. Vrai ou faux, ce quon dit des hommes tient souvent autant de place dans leur vie et surtout dans leur destinee que ce quils font. M. Myriel etait fils dun conseiller au parlement dAix; noblesse de robe. On contait de lui que son pere, le reservant pour heriter de sa charge, lavait marie de fort bonne heure, a dix-huit ou vingt ans, suivant un usage assez repandu dans les familles parlementaires. Charles Myriel, nonobstant ce mariage, avait, disait-on, beaucoup fait parler de lui. Il etait bien fait de sa personne, quoique dassez petite taille, elegant, gracieux, spirituel; toute la premiere partie de sa vie avait ete donnee au monde et aux galanteries. La revolution survint, les evenements se precipiterent, les familles parlementaires decimees, chassees, traquees, se disperserent. M. Charles Myriel, des les premiers jours de la revolution, emigra en Italie. Sa femme y mourut dune maladie de poitrine dont elle etait atteinte depuis longtemps. Ils navaient point denfants. Que se passa-t-il ensuite dans la destinee de M. Myriel? Lecroulement de lancienne societe francaise, la chute de sa propre famille, les tragiques spectacles de 93, plus effrayants encore peut-etre pour les emigres qui les voyaient de loin avec le grossissement de lepouvante, firent-ils germer en lui des idees de renoncement et de solitude? Fut-il, au milieu dune de ces distractions et de ces affections qui occupaient sa vie, subitement atteint dun de ces coups mysterieux et terribles qui viennent quelquefois renverser, en le frappant au coeur, lhomme que les catastrophes publiques nebranleraient pas en le frappant dans son existence et dans sa fortune? Nul naurait pu le dire; tout ce quon savait, cest que, lorsquil revint dItalie, il etait pretre. En 1804, M. Myriel etait cure de Brignolles. Il etait deja vieux, et vivait dans une retraite profonde."
-mot = "maman"
-code = ""
+m = "maman"
+m2 = "Quoique ce detail ne touche en aucune maniere au fond meme de ce que nous avons a raconter, il nest peut-etre pas inutile, ne fet-ce que pour etre exact en tout, dindiquer ici les bruits et les propos qui avaient couru sur son compte au moment ou il etait arrive dans le diocese. Vrai ou faux, ce quon dit des hommes tient souvent autant de place dans leur vie et surtout dans leur destinee que ce quils font. M. Myriel etait fils dun conseiller au parlement dAix; noblesse de robe. On contait de lui que son pere, le reservant pour heriter de sa charge, lavait marie de fort bonne heure, a dix-huit ou vingt ans, suivant un usage assez repandu dans les familles parlementaires. Charles Myriel, nonobstant ce mariage, avait, disait-on, beaucoup fait parler de lui. Il etait bien fait de sa personne, quoique dassez petite taille, elegant, gracieux, spirituel; toute la premiere partie de sa vie avait ete donnee au monde et aux galanteries. La revolution survint, les evenements se precipiterent, les familles parlementaires decimees, chassees, traquees, se disperserent. M. Charles Myriel, des les premiers jours de la revolution, emigra en Italie. Sa femme y mourut dune maladie de poitrine dont elle etait atteinte depuis longtemps. Ils navaient point denfants. Que se passa-t-il ensuite dans la destinee de M. Myriel? Lecroulement de lancienne societe francaise, la chute de sa propre famille, les tragiques spectacles de 93, plus effrayants encore peut-etre pour les emigres qui les voyaient de loin avec le grossissement de lepouvante, firent-ils germer en lui des idees de renoncement et de solitude? Fut-il, au milieu dune de ces distractions et de ces affections qui occupaient sa vie, subitement atteint dun de ces coups mysterieux et terribles qui viennent quelquefois renverser, en le frappant au coeur, lhomme que les catastrophes publiques nebranleraient pas en le frappant dans son existence et dans sa fortune? Nul naurait pu le dire; tout ce quon savait, cest que, lorsquil revint dItalie, il etait pretre. En 1804, M. Myriel etait cure de Brignolles. Il etait deja vieux, et vivait dans une retraite profonde."
 
-
-#res = encode(mot)
-#print(res[0].right.weight)
-#print(res[0].right.right.data)
-#print(res[1])
-#print(len(res[1]))
-#print(parLargeur(res[0]))
-#m = res[1].replace(" ", "")
-#print(m)
-#print(len(m))
-#print(len(mot2)*8)
-
-#resbis = decode(m)
-#print(resbis[1])
-#print(entropie(res[0]))
-
-message = mot2
+message = "zakaria"
 
 print("Le message est : "+message)
 
